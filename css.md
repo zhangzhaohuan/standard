@@ -399,14 +399,14 @@
     padding-left: 15px;
   }
   ```
-- 需要在 javascript 中使用的类名以 `J_` 开头，接“大驼峰”命名。例如 `J_ExampleClass`， 并且这类的 class 不能出现在 CSS 文件中
+- 需要在 javascript 中使用的类名以 `js-` 开头。例如 `js-exampleclass`， 并且这类的 class 不能出现在 CSS 文件中
 
   ```html
   <!-- Bad Html Class for Javascript Hook -->
   <div class="mod-example"></div>
   
   <!-- Good Html Class for Javascript Hook -->
-  <div class="J_ExampleClass">Just a Example</div>
+  <div class="js-exampleclass">Just a Example</div>
   ```
 	
 ## 参考资料
